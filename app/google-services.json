@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614755256978",
+    "project_id": "idyllic-bot-313813",
+    "storage_bucket": "idyllic-bot-313813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614755256978:android:e9b053fa5ff1c16981f44b",
+        "android_client_info": {
+          "package_name": "com.example.longtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614755256978-09hi1kincjgu9e6e6e6bv71femo468k7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm17ZLCK-v_OJtRpVYVqIKkxpszkO9yD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614755256978-09hi1kincjgu9e6e6e6bv71femo468k7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="#fece27"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:paddingHorizontal="15dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/escape_kid"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/textViewName"
+        android:text="Babysitter"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Studio"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:id="@+id/nameTxt"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/dekko_regular"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:fontFamily="@font/dekko_regular"
+            android:text="android.studio@android.com" />
+
+    </LinearLayout>
+</LinearLayout>

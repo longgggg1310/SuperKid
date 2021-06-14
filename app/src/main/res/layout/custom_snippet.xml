@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/snippetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_person_search_24"
+            android:fontFamily="@font/poetsen_one_regular"
+            android:text="Long"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/ic_baseline_person_search_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textAllCaps="false"
+        android:id="@+id/snippetDate"
+        android:text="Last Seen: "
+        android:fontFamily="@font/poetsen_one_regular"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
